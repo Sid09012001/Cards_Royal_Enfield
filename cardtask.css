@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Sevillana', cursive;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#cont > div > img{
+    width: 425px;
+} 
+h2{
+    background-color: black;
+    color: white;
+    margin: -4px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+    /* width: 10%; */
+}
+button{
+    width: 40%;
+    height: 40px;
+    margin-right: 10px;
+    border: 0;
+    /* display: none; */
+}
+.c{
+    background-color: red;
+    color: white;
+}
+/* #cont > div > img:hover button{
+    display: contents;
+} */
